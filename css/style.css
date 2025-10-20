@@ -1,0 +1,131 @@
+.font-irish {
+    font-family: "Irish Grover", cursive, system-ui !important;
+}
+
+.pizza-menu:hover{
+    background-color: white;
+    box-shadow: var(--bs-box-shadow) !important;
+    /* 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
+}
+
+.img-pizza{
+    filter: grayscale(100%);
+}
+
+.img-pizza:hover{
+    filter: grayscale(0);
+}
+
+.img-h1 {
+    height: 2.3rem;
+}
+
+.carousel-caption {
+    right: 12% !important;
+    left: 50% !important;
+    /* vw = medida que considera a largura disponivel da tela */
+    top: 12vw !important;
+    text-align: right !important;
+}
+
+.selo {
+    bottom: -50px !important;
+    left: -50px !important;
+}
+
+
+.pizza-menu:hover{
+    background-color: white!important;
+    box-shadow: var(--bs-box-shadow) !important;
+
+}
+
+@media (max-width:992px) {
+    .img-h1 {
+        height: calc(1.35rem + 1.5vw);
+    }
+    .carousel-caption h1 span{
+        font-size: 3rem !important;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem !important;
+    }
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .carousel-caption h1 span{
+        font-size: 6vw !important;
+    }
+    .carousel-caption h1 {
+        font-size: 4.5vw !important;
+    }
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+}
+
+
+.carousel-caption {
+    right: 12% !important;
+    left: 50% !important;
+    /* vw = medida que considera a largura disponivel da tela */
+    top: 15vw !important;
+    text-align: right !important;
+}
+
+@media (max-width:992px) {
+    .img-h1 {
+        height: calc(1.35rem + 1.5vw);
+    }
+    .carousel-caption h1 span{
+        font-size: 3rem !important;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem !important;
+    }
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+}
+
+
+
+@media (max-width:768px) {
+    .carousel-caption h1 span{
+        font-size: 6vw !important;
+    }
+    .carousel-caption h1 {
+        font-size: 4.5vw !important;
+    }
+    .carousel-caption p {
+        font-size: 1rem !important;
+    }
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-family: "Irish Grover", cursive, system-ui;
+}
+
+.carousel-caption h1 span{
+    font-size: 5rem;
+    text-shadow: 3px 3px 5px grey;
+}
+
+.texto-vermelho {
+    color:rgb(155, 5, 5);
+}
+
+.texto-verde {
+    color:rgb(1, 100, 10);
+}
+
+.carousel-caption p {
+    font-size: 1.3rem
+}
+
